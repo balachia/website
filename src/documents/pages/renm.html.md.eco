@@ -1,0 +1,32 @@
+```
+title: RENM
+layout: page
+tags: ['renm','page']
+pageOrder: 2
+```
+
+## Relational Event Network Modeling
+
+Relational event network models attempt to model the flow of *events* between actors in a network.
+These may take the form of radio calls between emergency responders, diplomatic actions between nations, or chats between members of a social network.
+These models stem from work by [Butts](http://www.jstor.org/stable/20451153).
+
+The code here implements a maximum likelihood estimator for a RENM in Java,
+derived from the formulation by [Brandes et al.](http://dx.doi.org/10.1109/ASONAM.2009.28).
+
+***
+
+#### Get the Source
+
+Latest version on [Github](https://www.github.com/balachia/renm)
+
+(Possibly outdated) [zip file](<%= @getUrl("/files/renm.zip") %>)
+
+***
+
+#### Other Implementations
+
+R package [*relevent*](http://cran.r-project.org/web/packages/relevent/index.html) (CRAN)
+
+Standalone software [Visone](http://www.visone.info/)
+

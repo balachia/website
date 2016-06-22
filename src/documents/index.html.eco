@@ -1,0 +1,41 @@
+---
+layout: default
+title: 'Home'
+---
+
+<div class="container">
+    <div class="row">
+	<!--<div class="col-lg-10 col-lg-offset-1">-->
+	<div>
+	    <img src="<%= @getUrl('/images/leader-sm.jpg') %>" alt="US-212" class="img-rounded img-responsive">
+	</div>
+    </div>
+
+    <!--<hr>-->
+
+    <div class="row">
+	<div class="col-md-2">
+	    <h2>About</h2>
+	</div>
+
+	<div class="col-md-6">
+	    <t render="markdown">
+<h2></h2>
+<p class="lead">
+PhD student in Macro Organizational Behavior at the Stanford Graduate School of Business.
+</p>
+
+I study social networks, organization theory, and the ways groups make sense of the worlds they operate in.
+I work through quantitative sociology and mathematical modeling.
+
+On occasion, I [code](http://github.com/balachia) things up. Sometimes, I bike a little.
+
+Get in touch at [LinkedIn](http://www.linkedin.com/pub/tony-vashevko/53/58a/84a/), or vashevko [at] stanford [dot] edu.
+	    </t>
+	</div>
+
+	<div class="col-md-4">
+	</div>
+    </div>
+</div>
+
