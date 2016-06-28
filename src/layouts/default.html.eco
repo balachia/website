@@ -48,6 +48,19 @@
 			</div>
 			<div class="navbar-collapse collapse pull-right">
 				<ul class="nav navbar-nav">
+                                        <% for doc in @site.nav: %>
+                                            <% document = @getFileAtPath(doc.url).toJSON() %>
+                                            <li
+                                                    typeof="sioc:Page"
+                                                    about="<%= document.url %>"
+                                                    class="<%= 'active'	if @document.url is document.url %>"
+                                            >
+                                                    <a href="<%= @getUrl(document.url) %>" property="dc:title">
+                                                        <%= doc.title ?= document.title %>
+                                                    </a>
+                                            </li>
+                                        <% end %>
+                                        <!--
 					<li>
 						<a href="<%= @getUrl('/') %>">Home</a>
 					</li>
@@ -65,6 +78,7 @@
 					<li>
 					<a href=<%= @getUrl('/files/vashevko-cv.pdf') %>>CV</a>
 					</li>
+                                        -->
 				</ul>
 			</div><!--/.navbar-collapse -->
 			</div>
