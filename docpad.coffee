@@ -23,7 +23,9 @@ docpadConfig = {
 
                         # Styles
                         styles: [
-                                "http://fonts.googleapis.com/css?family=Open+Sans|Inconsolata"
+                                #"https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,700,700italic"
+                                "https://fonts.googleapis.com/css?family=Raleway:300,300italic,400,400italic,700,700italic,200,500"
+                                #"https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic"
                                 "/styles/twitter-bootstrap.css"
                                 "/styles/style.css"
                         ]
