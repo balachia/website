@@ -5,7 +5,7 @@ tags: ['renm','page']
 pageOrder: 2
 ```
 
-## Relational Event Network Modeling
+### Relational Event Network Modeling
 
 Relational event network models attempt to model the flow of *events* between actors in a network.
 These may take the form of radio calls between emergency responders, diplomatic actions between nations, or chats between members of a social network.
