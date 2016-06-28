@@ -5,17 +5,17 @@ tags: ['papers','page']
 pageOrder: 1
 ```
 
-# Working Papers
+### Working Papers
 
-### [Pay Attention: Object Consideration as a Mechanism of Network Diffusion](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2641612)
+#### [Pay Attention: Object Consideration as a Mechanism of Network Diffusion](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2641612)
 
 _Anthony Vashevko_
 
 Theories of diffusion in networks rely on two broad classes of mechanisms: social influence directs the flow of information, and influence affects object valuation. This paper proposes an integrated model of decision-making for the adoption process. This model reveals a neglected middle step between information and valuation: social influence affects whether agents consider a particular object as relevant to the adoption decision. I identify this attention-driving mechanism using data on traders in an online foreign exchange platform. Features of the setting exclude the possibility of information- or valuation-driven diffusion, but traders still adopt one another’s trading behaviors, and they do so most for those rare behaviors that lack external drivers of attention. I discuss the importance of attention- driven diffusion for future work and the value of an integrated decision model in delineating conditions under which existing theories of influence apply.
 
-# Published
+### Published
 
-### [Dynamic Models of Communication in an Online Friendship Network](http://www.tandfonline.com/doi/abs/10.1080/19312458.2014.967843#.Vcf7vRNViko)
+#### [Dynamic Models of Communication in an Online Friendship Network](http://www.tandfonline.com/doi/abs/10.1080/19312458.2014.967843#.Vcf7vRNViko)
 
 _Brooke Foucault Welles, Anthony Vashevko, Nick Bennett & Noshir Contractor_
 

@@ -93,18 +93,15 @@
 		</section>
         <!--</div>-->
 		<!-- Footer -->
-<!--
-		<footer>
-		<div class="navbar navbar-fixed-bottom">
-			<div class="container">
-			<p class="pull-left">&copy; Tony Vashevko <%- (new Date()).getFullYear() %></p>
-			<p class="pull-right">
-				This website was last updated at <%= @site.date.toISOString() %>
-			</p>
-			</div>
-		</div>
-		</footer>
--->
+		<!--<footer>-->
+		<!--        <div class="container">-->
+                <!--            <br/>-->
+                <!--            <p class="pull-left">&copy; Tony Vashevko <%- (new Date()).getFullYear() %></p>-->
+                <!--            <p class="pull-right">-->
+                <!--                    This website was last updated at <%= @site.date.toLocaleString() %>-->
+                <!--            </p>-->
+		<!--        </div>-->
+		<!--</footer>-->
 	<!-- /container -->
 
 	<!-- Scripts -->
